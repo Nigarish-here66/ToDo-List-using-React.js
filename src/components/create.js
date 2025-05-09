@@ -6,7 +6,7 @@ const Create = ({ onUpdate }) => {
 
   const addTask = async () => {
     if (!task.trim()) return;
-    await axios.post('http://localhost:5000/todo', { text: task });
+    await axios.post('http://localhost:5000/todos', { text: task });
     setTask("");
     onUpdate();
   };

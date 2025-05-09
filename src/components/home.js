@@ -1,4 +1,3 @@
-// rfce snippet (React Functional Component Export)
 import React from 'react';
 import Create from './create';
 
